@@ -20,5 +20,8 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        // "indent": [2, 4],//缩进风格
+        "semi": ["error", "always"],
+        //"no-console": 2,//禁止使用console
     }
-}
+};
